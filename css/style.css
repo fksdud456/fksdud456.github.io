@@ -8,8 +8,32 @@ background-size : cover;
   height: 500px;
 }
 
-hr {
+#header hr {
   width : 60px;
-  border-top-width: 3px;
-  border-top : 3px solid rgba(200, 255, 67, 0.6);
+  border-top : 3px solid rgba(190, 235, 57, 0.3);
+}
+
+#about{
+  height: 300px;
+  background-color: #BEC87E;
+  /* #ABA802 */
+}
+.about_text {
+  height: 300px;
+}
+
+#about hr {
+    width : 60px;
+    border-top : 3px solid rgba(255, 255, 240, 0.6);
+}
+
+#portfolio{
+  height: 500px;
+}
+
+.portfolio_text {
+  height : 500px;
+}
+.portfolio_title_text {
+  height : 100px;
 }
