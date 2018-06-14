@@ -1,0 +1,15 @@
+#header{
+height: 500px;
+background-image: url("https://www.splitshire.com/wp-content/uploads/2015/03/SplitShire-8098-1800x1200.jpg");
+background-size : cover;
+}
+
+.header_text {
+  height: 500px;
+}
+
+hr {
+  width : 60px;
+  border-top-width: 3px;
+  border-top : 3px solid rgba(200, 255, 67, 0.6);
+}
