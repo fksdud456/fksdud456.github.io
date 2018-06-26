@@ -9,15 +9,22 @@
 /* ======= Base ======= */
 
 /*
-#54ba4e
+#0d7bbf
 
+#66bacb
 ->
+#66bacb
+
+#0d9bbf
 
 #0d7bbf
 #003ab0
 
 #1d60a7
 */
+.label {
+  background-color: #66bacb;
+}
 
 body {
 /*  font-family: 'Nanum Gothic', sans-serif;*/
@@ -41,7 +48,7 @@ h6 {
 }
 
 a {
-  color: #54ba4e;
+  color: #0d7bbf;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -75,8 +82,8 @@ a.btn:focus {
 }
 a.btn-cta-primary,
 .btn-cta-primary {
-  background: #54ba4e;
-  border: 1px solid #54ba4e;
+  background: #0d7bbf;
+  border: 1px solid #0d7bbf;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
@@ -105,7 +112,7 @@ a.btn-cta-secondary:hover,
   color: #32383e;
 }
 .label-theme {
-  background: #3AAA64;
+  background: #51b7c6;
   font-size: 12px;
     font-weight: normal;
 }
@@ -294,6 +301,13 @@ iframe {
 .latest .featured-image .ribbon .text:after {
   right: 0;
 }
+
+.latest li{
+  list-style-type: none;
+  color: #545e69;
+  margin-bottom: 5px;
+}
+
 /* Projects Section */
 .projects .item {
   margin-bottom: 30px;
@@ -306,7 +320,8 @@ iframe {
 }
 
 .projects .title .importance {
-  color : #54ba4e
+  right: 0;
+  color : #0d7bbf
 }
 
 .projects .item .title a {
@@ -350,7 +365,7 @@ iframe {
   color: #666666;
 }
 .experience .item .title .year {
-  color: #66cb8c;
+  color: #66bacb;
   font-weight: normal;
   text-align: left;
 }
@@ -402,6 +417,12 @@ iframe {
   margin-top: 0;
   margin-bottom: 10;
 }
+.skills .skillset .level-title .vs-label {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 .skills .skillset .level-title .level-label {
   color: #ccd1d6;
   font-size: 14px;
@@ -411,13 +432,17 @@ iframe {
   right: 0;
   top: 0;
 }
+.skills .skillset .level-bar2 {
+  height: 15px;
+  background: #d8c0c8;
+}
 .skills .skillset .level-bar {
   height: 15px;
   background: #e8e8e8;
 }
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #66cb8c;
+  background: #66bacb;
 }
 /* Testimonials section */
 .testimonials .item {
@@ -516,6 +541,13 @@ iframe {
 .list ul li a:hover {
   color: #49515a;
 }
+
+.list-img {
+  position: relative;
+  float: left;
+  width: 20px;
+}
+
 /* Credits */
 .credits .item {
   margin-bottom: 30px;
@@ -528,7 +560,7 @@ iframe {
 }
 
 .credits .title .importance {
-  color : #54ba4e
+  color : #0d7bbf
 }
 
 .credits ul li {
